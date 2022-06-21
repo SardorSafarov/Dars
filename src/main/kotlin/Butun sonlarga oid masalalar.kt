@@ -94,9 +94,9 @@ fun main() {
 //    val n = readln().toInt()
 //    println(n%7+1)
     //27-masala
-//    val n = arrayOf("Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba")
+//    val n = arrayOf("Shanba","Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma")
 //    val s = readln().toInt()
-//    println(n[s % 7 + 1])
+//    println(n[s % 7])
 
 
     //29-masala
