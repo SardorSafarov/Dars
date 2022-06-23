@@ -339,6 +339,65 @@ fun main() {
 //    }
     //28-masala
 
+//    val a = readln().split(" ")
+//    if(!(a.toString().toInt()%4!=0 || (a.toString().toInt()%100==0 && a.toString().toInt()%400!=0)))
+//    {
+//        print("Kabisa yili")
+//    }
+//    else
+//    {
+//        println("Kabisa yili emas")
+//    }
+    //29-masala
+  // val a = readln().toInt()
+//    if(a==0)
+//        println("son nolga teng!!")
+//    else
+//    { if(a>0) {
+//        print("Musbat ")
+//        if (a % 2 == 1)
+//            println("toq son")
+//        else
+//            println("juft son")
+//    }else
+//    {
+//        print("Manfiy ")
+//        if (a % 2 == 1)
+//            println("toq son")
+//        else
+//            println("juft son")
+//    }
+//    }
+
+    //30-masala
+//    val a = readln().toInt()
+//    print("Berilgan son ")
+//    if(a.toString().length == 3)
+//    {
+//        print("uch xonali ")
+//        if(a%2==0)
+//            println("Juft son")
+//        else
+//            println("Toq son")
+//    }
+//    if(a.toString().length == 2)
+//    {
+//        print("ikki xonali ")
+//        if(a%2==0)
+//            println("Juft son")
+//        else
+//            println("Toq son")
+//    }
+//    if(a.toString().length == 1)
+//    {
+//        print("bir xonali ")
+//        if(a%2==0)
+//            println("Juft son")
+//        else
+//            println("Toq son")
+//    }
+
+
 
 
 
