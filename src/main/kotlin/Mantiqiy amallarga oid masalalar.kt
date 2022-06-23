@@ -70,7 +70,7 @@ fun main() {
 //    val a = sp[0].toInt()
 //    val b = sp[1].toInt()
 //    val c = sp[2].toInt()
-//    println(a*b<0 || a*c<0 || b*c<0)
+//    println((a>0 && b<0 && c<0) || (a<0 && b>0 && c<0) || (a<0 && b<0 && c>0))
     //15-masala
 //    val sp = readln().split(" ")
 //    val a =sp[0].toInt()
