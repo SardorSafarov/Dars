@@ -36,7 +36,7 @@ fun main() {
 //        s++
 //    if (c > 0)
 //        s++
-//    println("%s ta musbat son bor".format(s))
+//    println("masala ta musbat son bor".format(s))
     //5-masala
 //    val sp = readln().split(" ")
 //    val a = sp[0].toInt()
@@ -57,7 +57,7 @@ fun main() {
 //        musbatlarSoni++
 //    else
 //        manfiylarSoni++
-//    println("Kiritilhan sonlardan %s tasi musbat\n%s tasi manfiy sonlar".format(musbatlarSoni,manfiylarSoni))
+//    println("Kiritilhan sonlardan masala tasi musbat\nmasala tasi manfiy sonlar".format(musbatlarSoni,manfiylarSoni))
     //6-masala
 //    val sp = readln().split(" ")
 //    val a = sp[0].toInt()

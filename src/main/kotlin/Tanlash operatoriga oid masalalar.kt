@@ -66,8 +66,31 @@ fun main() {
 //        else-> println("Bundayi yo`q")
 //    }
     //6-masala
-
-
+//    val sp  = readln().split(" ")
+//    val birlik= sp[0]
+//    val b= sp[1].toDouble()
+//    when(birlik)
+//    {
+//        "1"-> println("%s desimetr %.1f metr".format(b,b/10))
+//        "2"-> println("%s kilometr %.1f metr".format(b,b*1000))
+//        "3"-> println("%s metr %.1f metr".format(b,b))
+//        "4"-> println("%s millimetr %.1f metr".format(b,b/1000))
+//        "5"-> println("%s santimetr %.1f metr".format(b,b/100))
+//        else-> println("Bundayi yo`q")
+//    }
+    //7-masala
+//    val sp  = readln().split(" ")
+//    val birlik= sp[0]
+//    val b= sp[1].toDouble()
+//    when(birlik)
+//    {
+//        "1"-> println("%s kg %.s kg".format(b,b))
+//        "2"-> println("%s mgr %.s kg".format(b,b/1000000))
+//        "3"-> println("%s gramm %.s kg".format(b,b/1000))
+//        "4"-> println("%s t %.s kg".format(b,b*1000))
+//        "5"-> println("%s sentner %.s kg".format(b,b*100))
+//        else-> println("Bundayi yo`q")
+//    }
 
 
 
