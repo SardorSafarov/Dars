@@ -91,6 +91,169 @@ fun main() {
 //        "5"-> println("%s sentner %.s kg".format(b,b*100))
 //        else-> println("Bundayi yo`q")
 //    }
+    //8-masala
+//    val sp = readln().split(" ")
+//    val day = sp[0]
+//    val moth = sp[1].toDouble()
+//    when  {
+////       moth==1 && day in 1..31 ->
+//    }
+
+        //10-masala
+//    val sp = readln().split(" ")
+//    val a = sp[0]
+//    val b = sp[1].toInt()
+//    when(a)
+//    {
+//        "s"-> print("Shimolga ")
+//        "j" -> print("Janubga ")
+//        "q" -> print("Sharqga ")
+//        "g" -> print("G`arbga ")
+//        else -> print("error")
+//    }
+//    when(b)
+//    {
+//        1-> print("Chapga burul")
+//        2-> print("O`ngga burul")
+//        0-> print("Harakatni davom ettir")
+//        else-> print("error")
+//    }
+    //11-masala
+//    val sp = readln().split(" ")
+//    val a = sp[0]
+//    val k1 = sp[1].toInt()
+//    val k2 = sp[2].toInt()
+//    when(a)
+//    {
+//        "s"->{
+//            when(k1){
+//                0->{
+//                    when(k2){
+//                        0-> println("Janub")
+//                        1-> println("Shimol")
+//                        2 -> println("Sharq")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                1->{
+//                    when(k2)
+//                    {
+//                        0-> println("Shimol")
+//                        1-> println("janub")
+//                        2-> println("G`arb")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                2->{
+//                    when(k2)
+//                    {
+//                        0-> println("G`arb")
+//                        1-> println("Sharq")
+//                        2-> println("Shimol")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                else -> println("Xato")
+//            }
+//        }
+//        "j"->{
+//            when(k1){
+//                0->{
+//                    when(k2){
+//                        0-> println("Shimol")
+//                        1-> println("Janub")
+//                        2 -> println("Sharq")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                1->{
+//                    when(k2)
+//                    {
+//                        0-> println("janub")
+//                        1-> println("Shimol")
+//                        2-> println("G`arb")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                2->{
+//                    when(k2)
+//                    {
+//                        0-> println("G`arb")
+//                        1-> println("Sharq")
+//                        2-> println("Janub")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                else -> println("Xato")
+//            }
+//        }
+//        "q"->{
+//            when(k1){
+//                0->{
+//                    when(k2){
+//                        0-> println("G`arb")
+//                        1-> println("Sharq")
+//                        2 -> println("Shimol")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                1->{
+//                    when(k2)
+//                    {
+//                        0-> println("Sharq")
+//                        1-> println("G`arb")
+//                        2-> println("Janub")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                2->{
+//                    when(k2)
+//                    {
+//                        0-> println("Shimol")
+//                        1-> println("Janub")
+//                        2-> println("Sharq")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                else -> println("Xato")
+//            }
+//        }
+//        "g"->{
+//            when(k1){
+//                0->{
+//                    when(k2){
+//                        0-> println("Sharq")
+//                        1-> println("G`arb")
+//                        2 -> println("Shimol")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                1->{
+//                    when(k2)
+//                    {
+//                        0-> println("Sharq")
+//                        1-> println("G`arb")
+//                        2-> println("Janub")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                2->{
+//                    when(k2)
+//                    {
+//                        0-> println("Shimol")
+//                        1-> println("Janub")
+//                        2-> println("G`arb")
+//                        else -> println("Xato")
+//                    }
+//                }
+//                else -> println("Xato")
+//            }
+//        }
+//        else -> println("Xato!!")
+//    }
+
+ //12-masala
+
 
 
 
