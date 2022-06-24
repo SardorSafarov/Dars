@@ -1,3 +1,6 @@
+import kotlin.math.PI
+import kotlin.math.sqrt
+
 fun main() {
     //1-masala
 //    val a = readln().toInt()
@@ -93,11 +96,24 @@ fun main() {
 //    }
     //8-masala
 //    val sp = readln().split(" ")
-//    val day = sp[0]
-//    val moth = sp[1].toDouble()
-//    when  {
-////       moth==1 && day in 1..31 ->
+//    val day = sp[0].toInt()
+//    val moth = sp[1].toInt()
+//    when(day)  {
+//        1-> print("Birinchi ")
 //    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         //10-masala
 //    val sp = readln().split(" ")
@@ -118,7 +134,7 @@ fun main() {
 //        0-> print("Harakatni davom ettir")
 //        else-> print("error")
 //    }
-    //11-masala
+ //   11-masala
 //    val sp = readln().split(" ")
 //    val a = sp[0]
 //    val k1 = sp[1].toInt()
@@ -147,8 +163,8 @@ fun main() {
 //                2->{
 //                    when(k2)
 //                    {
-//                        0-> println("G`arb")
-//                        1-> println("Sharq")
+//                        0-> println("Sharq")
+//                        1-> println("G`arb")
 //                        2-> println("Shimol")
 //                        else -> println("Xato")
 //                    }
@@ -162,7 +178,7 @@ fun main() {
 //                    when(k2){
 //                        0-> println("Shimol")
 //                        1-> println("Janub")
-//                        2 -> println("Sharq")
+//                        2 -> println("G`arb")
 //                        else -> println("Xato")
 //                    }
 //                }
@@ -202,15 +218,15 @@ fun main() {
 //                    {
 //                        0-> println("Sharq")
 //                        1-> println("G`arb")
-//                        2-> println("Janub")
+//                        2-> println("Shimol")
 //                        else -> println("Xato")
 //                    }
 //                }
 //                2->{
 //                    when(k2)
 //                    {
-//                        0-> println("Shimol")
-//                        1-> println("Janub")
+//                        0-> println("Janub")
+//                        1-> println("Shimol")
 //                        2-> println("Sharq")
 //                        else -> println("Xato")
 //                    }
@@ -253,8 +269,65 @@ fun main() {
 //    }
 
  //12-masala
-
-
-
+//    val sp = readln().split(" ")
+//    val a = sp[0].toInt()
+//    val x = sp[1].toDouble()
+//    when(a)
+//    {
+//        1->
+//        {
+//            println("Radius berildi!!\nD=%s\nL=%s\nS=%s".format(x*2,2*PI*x,PI*x*x))
+//        }
+//        2->
+//        {
+//            println("Diametr berildi!!\nR=%s\nL=%s\nS=%s".format(x/2,PI*x,PI*x*x/4))
+//        }
+//        3->{
+//            println("Uzunlik berildi!!\nR=%s\nD=%s\nS=%s".format(x/(2*PI),x/ PI,PI*x/(2*PI)*x/(2*PI)))
+//        }
+//        4->{
+//            println("Yuza berildi!!\nR=%s\nD=%s\nL=%s".format(sqrt(x/ PI),sqrt(x/ PI)*2,PI*sqrt(x/ PI)*2))
+//        }
+//    }
+    //13-masala
+//    val sp = readln().split(" ")
+//    val n = sp[0].toInt()
+//    val x = sp[1].toDouble()
+//    when(n)
+//    {
+//        1->
+//        {
+//            val a = x
+//            val c = x* sqrt(2.0)
+//            val h = c/2
+//            val s = h*c/2
+//
+//            println("Katet berildi!!\na=%s\nc=%s\nh=%s\ns=%s".format(a,c,h,s))
+//        }
+//        2->
+//        {
+//            val c = x
+//            val a = c/ sqrt(2.0)
+//            val h = c/2
+//            val s = h*c/2
+//            println("Gepotenuza berildi!!\na=%s\nc=%s\nh=%s\ns=%s".format(a,c,h,s))
+//        }
+//        3->{
+//            val h = x
+//            val c = x*2
+//            val a = c/ sqrt(2.0)
+//            val s = h*c/2
+//            println("Halandlik berildi!!\na=%s\nc=%s\nh=%s\ns=%s".format(a,c,h,s))
+//        }
+//        4->{
+//            val s = x
+//            val c = sqrt(s)*4
+//            val h = c/2
+//            val a = c/ sqrt(2.0)
+//
+//            println("Yuza berildi!!\na=%s\nc=%s\nh=%s\ns=%s".format(a,c,h,s))
+//        }
+//    }
+    //14-masala
 
 }
