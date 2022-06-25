@@ -1,3 +1,4 @@
+import kotlin.math.abs
 import kotlin.math.pow
 
 fun main() {
@@ -156,20 +157,72 @@ fun main() {
 //    println(sum)
 
     //22-masala
+//    val sp = readln().split(" ")
+//    val x = sp[0].toInt()
+//    val n = sp[1].toInt()
+//    var s= 0.0
+//    var xx = 1
+//    var f = 1
+//    for (i in 1..n)
+//    {
+//        f*=i
+//        xx*=x
+//        s+=xx/f*1.0
+//    }
+//
+//    println(s+1)
+// 29-masala
+//    val (sp1, sp2, sp3) = readln().split(" ")
+//    val n = sp1.toInt()
+//    val a = sp2.toInt()
+//    val b = sp3.toInt()
+//    val ab = abs(b-a)
+//    val step = ab/n
+//    println(step)
+//    for (i in a+step .. b step step)
+//        println(i)
+    //36-masala
+//    val sp = readln().split(" ")
+//    val n = sp[0].toInt()
+//    val k = sp[1].toInt()
+//    var sum= 1
+//    var s=0
+//    for (i in  2..n)
+//    {
+//        s=i
+//        for (j in 1 until k)
+//            s*=s
+//        sum+=s
+//    }
+//    println(sum)
+    //37-masala
+//    val sp = readln().split(" ")
+//    val n = sp[0].toInt()
+//    var sum = 1.0
+//    for (i in 2..n) {
+//        sum += i.toDouble().pow(i)
+//    }
+//    println(sum)
+    //38-masala
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //39-masala
+//    val sp = readln().split(" ")
+//    val a = sp[0].toInt()
+//    val b = sp[1].toInt()
+//    for(i in a..b) {
+//        for (j in 1..i)
+//            print("$i ")
+//    println()
+//    }
+    //40-masala
+//        val sp = readln().split(" ")
+//    val a = sp[0].toInt()
+//    val b = sp[1].toInt()
+//
+//    for(i in a until  b) {
+//        for (j in 1..(i-a))
+//            print("$i ")
+//    println()
+//    }
 
 }
