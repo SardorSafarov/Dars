@@ -118,15 +118,131 @@ fun main() {
 //    }
 //    println(k)
     //11-masala
+//    val n = readln().toInt()
+//    var k = 0
+//    var sum=0
+//    while (sum<n)
+//    {
+//        k++
+//        sum+=k
+//    }
+//
+//    println(k)
+    //12-masala
+//        val n = readln().toInt()
+//    var k = 0
+//    var sum=0
+//    while (sum<n)
+//    {
+//        k++
+//        sum+=k
+//    }
+//
+//    if(sum==n)
+//        println(k)
+//    else
+//        println(k-1)
+    //13-masala
 
+//    val n = readln().toInt()
+//    var k = 0.0
+//    var sum=0.0
+//    while (sum<n)
+//    {
+//        k++
+//        sum+=1/k
+//    }
+//    println(k)
+//14-masala
+//    val n = readln().toDouble()
+//    var k = 0.0
+//    var sum = 0.0
+//    while (sum < n) {
+//        k++
+//        sum += 1 / k
+//    }
+//
+//    if (sum == n)
+//        println(k)
+//    else
+//        println(k - 1)
+    //15-masala
+//    val (s1, p1) = readln().split(' ')
+//    var s = s1.toDouble()
+//    val p = p1.toDouble()
+//    var k = 0
+//    while (s<s1.toDouble()*2)
+//    {
+//        s+=s*p/100
+//        k++
+//    }
+//    println("Oy = $k\nSuma = $s")
 
+    //16-masala
+//    val p = readln().toDouble()
+//    var sum =0.0
+//    var s = 10.0
+//    var  k =0
+//    while (sum<200.0)
+//    {
+//        sum+=s
+//        println(sum)
+//        s+=s*p/100
+//        println(s)
+//        k++
+//    }
+//    println("Oy $k\n$sum")
 
-
-
-
-
-
-
+    //17-masala
+//    val sp = readln().split(' ')
+//    var n = sp[0].toInt()
+//    var m = sp[1].toInt()
+//    var k = 0
+//    var q = 0
+//    while (n >= m) {
+//        n -= m
+//        k++
+//    }
+//    println("Butun qismi = $k\nQoldiq qismi = ${n}")
+    //18-masala
+//    println(readln().reversed())
+    //19-masala
+//    val s = readln()
+//    var sum =0
+//    var k =0
+//    s.forEach {
+//        k++
+//        sum+=it.toString().toInt()
+//    }
+//    println("Yig`indi = $sum\nRaqamlar soni = $k")
+    //20-masala
+  //  println(readln().contains('2'))
+    //21-masala
+//   readln().forEach {
+//      if(it.toString().toInt()%2==1)
+//      {
+//          println(true)
+//
+//      }
+//  }
+//22-masala
+//    val n = readln().toInt()
+//    var s = 0
+//    for(i in 2..sqrt(n.toDouble()).toInt())
+//    {
+//        if(n%i==0)
+//        {
+//            s++
+//            break
+//
+//        }
+//    }
+//    if(s==0){
+//        println("Tup son")
+//    }
+//    else
+//        println("Tup emas")
+    //23-masala
 
 
 

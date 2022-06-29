@@ -207,4 +207,39 @@ fun main() {
 
 
 
+
+
+
+
+
+
+    //20-masala
+//    val n = readln().toInt()
+//    val a = n/100
+//    val b = (n/10)%10
+//    val c = n%10
+//    println("Yuzlar xonasidagi = $a\nO`nlar = $b\nBirlar xonasidagi = $c")
+//
+//    println(a!=b && a!=c && b!=c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
