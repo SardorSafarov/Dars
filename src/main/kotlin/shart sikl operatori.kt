@@ -1,4 +1,6 @@
 import java.lang.Integer.min
+import kotlin.math.E
+import kotlin.math.abs
 import kotlin.math.sqrt
 
 fun main() {
@@ -256,18 +258,108 @@ fun main() {
 //    }
 //    println(ekub)
     //24-masala
-    val n = readln().toInt()
-    var a =0
-    var b =1
-    var s =0
-    for(i in 1..n)
-    {
+//    val n = readln().toInt()
+//    var a =0
+//    var b =1
+//    var s =0
+//        while (s<n) {
+//            s = a + b
+//            a = b
+//            b = s
+//        }
+//    if(s==n)
+//        println("Yes")
+//    else
+//        println("No")
+    //25-masala
+//    val n = readln().toInt()
+//    var f1=0
+//    var f2=1
+//    var f3=0
+//    while (!(f3>n))
+//    {
+//        f3 = f1+f2
+//        f1=f2
+//        f2=f3
+//    }
+//    println(f3)
+    //26-masala
+//    val n = readln().toInt()
+//    var f1 = 0
+//    var f2 = 1
+//    var f3 = 0
+//    while (!(n==f3))
+//    {
+//        f3 = f1+f2
+//        f1=f2
+//        f2=f3
+//    }
+//    println("$f1\n$f3\n${f1+f2}")
+    //27-masala
+//    val n = readln().toInt()
+//    var f1 = 0
+//    var f2 = 1
+//    var f3 = 0
+//    var k =2
+//    when
+//    {
+//        n==1-> k=2
+//            else-> {
+//                while (!(n == f3)) {
+//                    f3 = f2 + f1
+//                    f1 = f2
+//                    f2 = f3
+//                    k++
+//                }
+//            }
+//    }
+//    println(k)
 
-        s = a+b
-        a = b
-        b=s
-        println(a)
-    }
+    //28-masala
+//
+//    var a1 = 1.0
+//    var a2:Double = 0.0
+//
+//    var k =2
+//    while (abs(a2-a1)<E)
+//    {
+//        a2 = 2+ 1/a1
+//        a1 = a2
+//        k++
+//    }
+//    println(k)
+
+
+
+////30-masala
+//    val sp = readln().split(' ')
+//    var a = sp[0].toInt()
+//    var b = sp[1].toInt()
+//    var c = sp[2].toInt()
+//    if(a>=c && b>=c)
+//    {
+//        println((a-c+1)*(b-c+1))
+//    }else
+//        println("Bunday kvadrat sig`maydi")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
