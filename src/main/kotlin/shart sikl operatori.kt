@@ -1,3 +1,4 @@
+import java.lang.Integer.min
 import kotlin.math.sqrt
 
 fun main() {
@@ -216,7 +217,7 @@ fun main() {
 //    }
 //    println("Yig`indi = $sum\nRaqamlar soni = $k")
     //20-masala
-  //  println(readln().contains('2'))
+    //  println(readln().contains('2'))
     //21-masala
 //   readln().forEach {
 //      if(it.toString().toInt()%2==1)
@@ -243,14 +244,30 @@ fun main() {
 //    else
 //        println("Tup emas")
     //23-masala
+//    val sp = readln().split(' ')
+//    val a = sp[0].toInt()
+//    val b = sp[1].toInt()
+//    val min = min(a,b)
+//    var ekub = 1
+//    for(i in 1..min)
+//    {
+//        if(a%i==0 && b%i==0)
+//            ekub = i
+//    }
+//    println(ekub)
+    //24-masala
+    val n = readln().toInt()
+    var a =0
+    var b =1
+    var s =0
+    for(i in 1..n)
+    {
 
-
-
-
-
-
-
-
+        s = a+b
+        a = b
+        b=s
+        println(a)
+    }
 
 
 
