@@ -315,21 +315,6 @@ fun main() {
 //    }
 //    println(k)
 
-    //28-masala
-//
-//    var a1 = 1.0
-//    var a2:Double = 0.0
-//
-//    var k =2
-//    while (abs(a2-a1)<E)
-//    {
-//        a2 = 2+ 1/a1
-//        a1 = a2
-//        k++
-//    }
-//    println(k)
-
-
 
 ////30-masala
 //    val sp = readln().split(' ')
@@ -344,7 +329,7 @@ fun main() {
 
 
 
-
+//[28,29]
 
 
 

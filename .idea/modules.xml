@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dars.iml" filepath="$PROJECT_DIR$/Dars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExempleModel.iml" filepath="$PROJECT_DIR$/ExempleModel.iml" />
     </modules>
   </component>
 </project>

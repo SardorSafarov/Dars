@@ -523,4 +523,8 @@ fun main() {
 //        (month1 == 12 || month2 == 1) && (day1 >= 22 && day2 <= 19) -> print("Echki")
 //        else -> print("Bunday burj oralig`i yo`q")
 //    }
+
+
+
+    //{9}
 }
