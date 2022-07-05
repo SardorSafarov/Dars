@@ -191,6 +191,224 @@ fun main() {
 //    }
 //    println("Tartib raqam $tr1\nTartib Raqam oxirgisi $tr2")
     //10-masala
+//    var n = readln().toInt()
+//    var min = 0
+//    var max = 0
+//    var trMax= 1
+//    var trMin= 1
+//    var s = true
+//    for (i in 1..n)
+//    {
+//        var a = readln().toInt()
+//        if(s){
+//            s = false
+//            min =  a
+//            max =  a
+//            continue
+//        }
+//        if(a<min){
+//            min = a
+//            trMin = i
+//        }
+//        if(max<a)
+//        {
+//            max = a
+//            trMax = i
+//        }
+//    }
+//    if(trMax>trMin)
+//        println(trMin)
+//    else
+//        println(trMax)
+
+    //11-masala
+//    var n = readln().toInt()
+//    var min = 0
+//    var max = 0
+//    var trMax= 1
+//    var trMin= 1
+//    var s = true
+//    for (i in 1..n)
+//    {
+//        var a = readln().toInt()
+//        if(s){
+//            s = false
+//            min =  a
+//            max =  a
+//            continue
+//        }
+//        if(a<=min){
+//            min = a
+//            trMin = i
+//        }
+//        if(max<=a)
+//        {
+//            max = a
+//            trMax = i
+//        }
+//    }
+//    if(trMax>trMin)
+//        println(trMin)
+//    else
+//        println(trMax)
+
+    //12-masala
+//    var n  = readln().toInt()
+//    var musbatSon = 0
+//    var s = true
+//    for(i in 1..n)
+//    {
+//        var a = readln().toInt()
+//        if(a>0){
+//            if(s){
+//                s=false
+//                musbatSon =a
+//                continue
+//            }
+//            if(musbatSon>a){
+//                musbatSon =a
+//            }
+//        }
+//    }
+//    println(musbatSon)
+    //13-masala
+
+//    var n = readln().toInt()
+//    var max = 0
+//    var trMax = 0
+//    var s= true
+//    for (i in 1..n){
+//        var a = readln().toInt()
+//        if(s.and(a%2==1))
+//        {
+//            s=false
+//            trMax = i
+//            max =a
+//            continue
+//        }
+//        if(a%2==1 && max<a)
+//        {
+//            max =a
+//            trMax = i
+//        }
+//    }
+
+//    println(trMax)
+//14-masala
+
+//    var b = readln().toInt()
+//    var n = readln().toIntOrNull()
+//    var min =0
+//    var trMin =0
+//    var s = true
+//    println("To`plam elementlarni kiriting!!")
+//    for (i in 1..n!!)
+//    {
+//        var  a= readln().toInt()
+//        if(s && b!!<a){
+//            min=a
+//            trMin = i
+//            s = false
+//            continue
+//        }
+//        if(min>a && b<a)
+//        {
+//            min =a
+//            trMin = i
+//        }
+//    }
+//    if (s){
+//        println("0 0")
+//    }
+//    else
+//        println(trMin)
+
+    //15-masala
+//    var b = readln().toInt()
+//    var c = readln().toInt()
+//    var s = true
+//    var max = 0
+//    var trMax = 0
+//    for (i in 1..10) {
+//        var a = readln().toInt()
+//        if (s && (b < a && a < c)) {
+//            max = a
+//            trMax = i
+//            s = false
+//            continue
+//        }
+//        if (max < a && (c < a && a < b)) {
+//            max = a
+//            trMax = i
+//        }
+//    }
+//    if (s)
+//    {
+//       println("0 0")
+//    }else
+//    {
+//        println(trMax)
+//
+//    }
+    //16-masala
+//    var n = readln().toInt()
+//    println("To`plam elementlarnini kiriting!!")
+//    var min = readln().toInt()
+//    var tr = 0
+//    for (i in 2..n)
+//    {
+//        var a = readln().toInt()
+//        if(min>a)
+//        {
+//            min = a
+//            tr = i-1
+//        }
+//    }
+//    println(tr)
+    //17-masala
+//    val n = readln().toInt()
+//    println("To`plam elementlarnini kiriting!!")
+//    var max = readln().toInt()
+//    var tr = 0
+//    for (i in 2..n)
+//    {
+//        var a = readln().toInt()
+//        if(max<=a)
+//        {
+//            max = a
+//            tr = n-i
+//        }
+//    }
+//    println(tr)
+    //18-masala
+//    var n = readln().toInt()
+//    println("To`plam elementlarini kriting!!!")
+//    var max1 = readln().toInt()
+//    var tr1= 1
+//    var tr2 = 1
+//    for (i in 2..n)
+//    {
+//        var a = readln().toInt()
+//        if(a>max1)
+//        {
+//            max1 = a
+//            tr1 = i
+//        }
+//        if(a>=max1)
+//        {
+//            max1 = a
+//            tr2 = i
+//        }
+//
+//    }
+//
+//    if(tr1==tr2)
+//        println(0)
+//    else
+//        println(tr2-tr1-1)
+    //19-masala
+
+
 
 
 }
