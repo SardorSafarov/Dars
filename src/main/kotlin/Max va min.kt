@@ -407,6 +407,95 @@ fun main() {
 //    else
 //        println(tr2-tr1-1)
     //19-masala
+//    var n = readln().toInt()
+//    var arr = IntArray(n)
+//    for (i in 0 until n){
+//        arr[i] = readln().toInt()
+//    }
+//    arr.sort()
+//    var s = 1
+//    for (i in 0 until arr.size-1){
+//        if(arr[i]==arr[i+1]){
+//            s++
+//            continue
+//        }
+//        break
+//    }
+//    println(s)
+    //20-masala
+
+
+    //21-masala
+//    var n  = readln().toDouble()
+//    var s= 0.0
+//    for (i in 1..n.toInt()){
+//        s+= readln().toDouble()
+//    }
+//    println(s/n)
+    //22-masala
+//    var n = readln().toInt()
+//    var arr = IntArray(n)
+//    for(i in arr.indices){
+//        arr[i] = readln().toInt()
+//    }
+//    arr.sort()
+//    println("${arr[0]}   ${arr[1]}")
+    //23-masala
+//
+//    var n = readln().toInt()
+//    var arr = IntArray(n)
+//    for(i in arr.indices){
+//        arr[i] = readln().toInt()
+//    }
+//    arr.sort()
+//    println("${arr[arr.lastIndex-1]}   ${arr[arr.lastIndex]}")
+    //24-masala
+//    var n = readln().toInt()
+//    var arr=IntArray(n)
+//    for (i in arr.indices){
+//        arr[i] = readln().toInt()
+//    }
+//    var sum = arr[0]+arr[1]
+//    for (i in 1 until arr.size-1){
+//        if(sum<(arr[i]+arr[i+1])){
+//            sum = arr[i]+arr[i+1]
+//            }
+//    }
+//    println(sum)
+    //25-masala
+//    var n = readln().toInt()
+//    var arr = IntArray(n)
+//    for (i in arr.indices) {
+//        arr[i] = readln().toInt()
+//    }
+//    var sum = arr[0] * arr[1]
+//    var index = 0
+//    for (i in 1 until arr.size - 1) {
+//        if (sum < (arr[i] * arr[i + 1])) {
+//            sum = arr[i] * arr[i + 1]
+//            index = i
+//        }
+//    }
+//    println("${index}   ${index+1}")
+    //26-masala
+//    var n  = readln().toInt()
+//    var sum =0
+//    var s = readln().toInt()
+//    for (i in 2..n){
+//        var a = readln().toInt()
+//        if(s==a){
+//            sum++
+//            continue
+//        }
+//        s = a
+//        sum=0
+//    }
+//    println(sum)
+    //27-masala
+
+
+
+
 
 
 
