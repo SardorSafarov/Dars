@@ -476,30 +476,30 @@ fun main() {
 //    }
     //19-masala
 //
-//    val year = readln()
-//    val end = year.last()
-//    when {
-//        end.equals('1') || end.equals('6') -> print("sariq ")
-//        end.equals('2') || end.equals('7') -> print("oq ")
-//        end.equals('3') || end.equals('8') -> print("qora ")
-//        end.equals('4') || end.equals('9') -> print("yashil ")
-//        end.equals('5') || end.equals('0') -> print("qizil ")
-//    }
-//    when(year.toInt()%12)
-//    {
-//        4-> print("sichqon")
-//        5-> print("sigir")
-//        6-> print("yo`lbars")
-//        7-> print("quyon")
-//        8-> print("ajdar")
-//        9-> print("ilon")
-//        10-> print("ot")
-//        11-> print("qo`y")
-//        0-> print("maymun")
-//        1-> print("tovuq")
-//        2-> print("it")
-//        3-> print("to`ng`iz")
-//    }
+    val year = readln()
+    val end = year.last()
+    when {
+        end.equals('1') || end.equals('6') -> print("sariq ")
+        end.equals('2') || end.equals('7') -> print("oq ")
+        end.equals('3') || end.equals('8') -> print("qora ")
+        end.equals('4') || end.equals('9') -> print("yashil ")
+        end.equals('5') || end.equals('0') -> print("qizil ")
+    }
+    when(year.toInt()%12)
+    {
+        4-> print("sichqon")
+        5-> print("sigir")
+        6-> print("yo`lbars")
+        7-> print("quyon")
+        8-> print("ajdar")
+        9-> print("ilon")
+        10-> print("ot")
+        11-> print("qo`y")
+        0-> print("maymun")
+        1-> print("tovuq")
+        2-> print("it")
+        3-> print("to`ng`iz")
+    }
     //20-masala
 //    val sp = readln().split("-")
 //    val date1 = sp[0].split(".")

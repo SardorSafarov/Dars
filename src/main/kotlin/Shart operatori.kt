@@ -1,8 +1,4 @@
-import java.lang.Integer.max
-import java.lang.Integer.min
-import kotlin.math.abs
-import kotlin.math.pow
-import kotlin.math.sin
+import kotlin.math.hypot
 
 fun main() {
 //1-masala
@@ -139,18 +135,12 @@ fun main() {
 //    val a = sp[0].toInt()
 //    val b = sp[1].toInt()
 //    val c = sp[2].toInt()
-//    if (a < b && b < c)
-//        println(b)
-//    if (a < c && c < b)
-//        println(c)
-//    if (b < a && a < c)
+//    if ((b<a && a<c) || (c<a && a<b))
 //        println(a)
-//    if (b < c && c < a)
-//        println(c)
-//    if (c < a && a < b)
-//        println(a)
-//    if (c < b && b < a)
+//    if ((a<b && b<c)||(c<b && b<a))
 //        println(b)
+//    if ((a<c && c<b) || (b<c && c<a))
+//        println(c)
     //14-masala
     //1-usul
 //    val sp = readln().split(" ")
@@ -349,7 +339,7 @@ fun main() {
 //        println("Kabisa yili emas")
 //    }
     //29-masala
-  // val a = readln().toInt()
+    // val a = readln().toInt()
 //    if(a==0)
 //        println("son nolga teng!!")
 //    else
@@ -397,8 +387,134 @@ fun main() {
 //            println("Toq son")
 //    }
 
+    //Butun sonlar tiplari
+//    var byte:Byte = -128
+//    var short:Short = 50
+//    var int:Int = 80
+//    var long: Long = 82
+//
+//    //Haqiqiy sonlar tiplar
+//    var folat:Float = 50.6f
+//    var double:Double = 20.0
+//
+//    var a = readln().toInt()    //1
+//    var b = readln().toInt()    //2
+//    var c = readln().toInt()    //3
+//
+
+//    var musbat_sonlar_soni = 0
+//    var manfiy_sonlar_soni = 0
+//    if (a>0)
+//    {
+//        musbat_sonlar_soni ++
+//    }
+//    else{
+//        manfiy_sonlar_soni++
+//    }
 
 
+//    if (b>0){
+//        musbat_sonlar_soni++
+//    }
+//    else{
+//        manfiy_sonlar_soni++
+//    }
+//    if (c>0){
+//        musbat_sonlar_soni++
+//    }else{
+//        manfiy_sonlar_soni++
+//    }
+//    println("Muabat sonlar soni = ${musbat_sonlar_soni}")
+//    println("Manfiy sonlar soni = ${manfiy_sonlar_soni}")
 
+
+//
+//    var a1  = readln().toInt()
+//    var b1  = readln().toInt()
+//    var c1  = readln().toInt()
+//    if (b1>a1 && c1 > a1)
+//    {
+//        if (b1>c1){
+//            println(c1)
+//        }else{
+//            println(b1)
+//        }
+//    }
+//    if (a1>b1 && c1 > b1)
+//    {
+//        if (a1>c1){
+//            println(c1)
+//        }else{
+//            println(a1)
+//        }
+//    }
+
+
+//    var a = readln().toInt()
+//
+//    if (a == 0)
+//    {
+//        println(10)
+//    }else
+//    {
+//        if (a>0)
+//        {
+//            println(a+1)
+//        }else{
+//            println(a-2)
+//        }
+//    }
+
+
+//    var a = readln().toInt()
+//    var b = readln().toInt()
+//    var c = readln().toInt()
+//    var s1 = 0
+//    var s2 = 0
+//    if (a!=0 && b!=0 && c!= 0){
+//    if (a > 0) {
+//        s1++
+//    } else {
+//        s2++
+//    }
+//    if (b > 0) {
+//        s1++
+//    } else {
+//        s2++
+//    }
+//    if (c > 0) {
+//        s1++
+//    } else {
+//        s2++
+//    }
+//
+//    println("Musbat sonlar soni ${s1}")
+//    println("Manfiy sonlar soni ${s2}")
+//    }else
+//    {
+//        println("Sonlar ichida 0 qatnashgan!!")
+//    }
+
+    //18
+//    var a = readln().toInt()
+//    var b = readln().toInt()
+//    var c = readln().toInt()
+//    var d = readln().toInt()
+//    if (a==b && a==c && a!=d)
+//    {
+//        println(4)
+//    }
+
+    var n = readln().toInt()
+    var a = readln().toInt()
+    var s = 1
+    var sum = 1
+    for (i in 1..n)
+    {
+        s*=a
+        s*=-1
+        println(s)
+        sum+=s
+    }
 
 }

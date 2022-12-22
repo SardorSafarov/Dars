@@ -494,10 +494,46 @@ fun main() {
     //27-masala
 
 
+//ekub
+//    var a = readln().toInt()
+//    var b = readln().toInt()
+//    var katta = 0
+//    var kichik = 0
+//    if (a > b) {
+//        katta = a
+//        kichik = b
+//    } else {
+//        katta = b
+//        kichik = a
+//    }
+//    var qolgani = katta%kichik
+//    while (qolgani!=0)
+//    {
+//        katta = kichik
+//        kichik = qolgani
+//        qolgani = katta%kichik
+//    }
+//        println("%s va %s sonlaring EKUB %s".format(a,b,kichik))
 
+    //9-masala
+//    var a = readln().toInt()
+//    var b = readln().toInt()
+//    println(a%2==1 || b%2==1)
 
+    //1-masala
+//    var a = readln().toInt()
+//    var b = readln().toInt()
+//    println((a%2==1 && b%2==0) || (a%2==0 && b%2==1))
+//6-masala
 
-
-
+//    var a = readln().toInt()
+//    var b = readln().toInt()
+//    var c = readln().toInt()
+//    println(a<=b && b<=c)
+   //17-masala
+    var a = readln().toInt()
+    var b = readln().toInt()
+    var c = readln().toInt()
+    println(a>0 && b>0 && c>0)
 
 }

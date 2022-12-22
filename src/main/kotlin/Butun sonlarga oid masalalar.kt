@@ -97,13 +97,25 @@ fun main() {
 //    val n = arrayOf("Shanba","Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma")
 //    val s = readln().toInt()
 //    println(n[s % 7])
-
-
-    //29-masala
-
+//
+//    Int
+//    var a = readln().toInt()
+//    var b = readln().toInt()
+//    var c = readln().toInt()
+//    var musbatSonlar = 0
+//    if (a>0)
+//    {
+//      musbatSonlar=musbatSonlar+1
+//    }
+//    if (b>0)
+//    {
+//        musbatSonlar=musbatSonlar+1
+//    }
+//    if (c>0)
+//    {
+//        musbatSonlar=musbatSonlar+1
+//    }
+//    println("$musbatSonlar ta musbat son")
 
 }
 
-fun Char.toIntt(): Int {
-    return this.toString().toInt()
-}
