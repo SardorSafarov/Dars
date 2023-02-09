@@ -243,6 +243,9 @@ fun main() {
 //        xn*=-1
 //    }
 //    println(sum)
+
+
+
     //26-masala
 //    var n = readln().toInt()
 //    var x = readln().toDouble()
@@ -259,6 +262,8 @@ fun main() {
 //    }
 
     //27-masala
+
+
 //    var x = readln().toDouble()
 //    var n = readln().toInt()
 //    var summ = 0.0
@@ -269,14 +274,15 @@ fun main() {
 //        xn *= x
 //        if (i % 2 == 1) {
 //            s *= i
-//            m*=i+1
+//            m*=i
 //            summ += xn * s / m
-//            m/=i+1
+//            m/=i
 //        } else {
 //            m *= i
 //        }
 //        println(summ)
 //    }
+
 
 // 29-masala
 //    val (sp1, sp2, sp3) = readln().split(" ")
@@ -300,12 +306,12 @@ fun main() {
 //        println(1-Math.sin(i*1.0))
 
     //31-masala
-//    var n = readln().toInt()
-//    var a = 2.0
-//    for (i in 1..n){
-//        a = 2+1/a
-//        println(a)
-//    }
+    var n = readln().toInt()
+    var a = 2.0
+    for (i in 1..n){
+        a = 2+1/a
+        println(a)
+    }
 // 32-masala
 //    var n = readln().toInt()
 //    var a = 2.0
@@ -370,11 +376,199 @@ fun main() {
 //    println()
 //    }
 
-    var a = readln().toInt()
-    var b = readln().toInt()
-    var c = readln().toInt()
+//    var d = readln().toInt()
+//    var m = readln().toInt()
+//    when {
+//        m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12 -> {
+//            var d1 = d / 10
+//            var d2 = d % 10
+//            when (d1) {
+//                1 -> {
+//                    print("O`n")
+//                }
+//                2 -> {
+//                    print("Yigirma")
+//                }
+//                3 -> {
+//                    print("O`ttiz")
+//                }
+//            }
+//            when (d2) {
+//                1 -> {
+//                    print("birinchi")
+//                }
+//                2 -> {
+//                    print("ikkinchi")
+//                }
+//                3 -> {
+//                    print("uchinchi")
+//                }
+//                4 -> {
+//                    print("to`rtinchi")
+//                }
+//                5 -> {
+//                    print("beshinchi")
+//                }
+//                6 -> {
+//                    print("oltinchi")
+//                }
+//                7 -> {
+//                    print("yettinchi")
+//                }
+//                8 -> {
+//                    print("sakkizinchi")
+//                }
+//                9 -> {
+//                    print("to`qizinchi")
+//                }
+//            }
+//
+//
+//        }
+//        m == 4 || m == 6 || m == 9 || m == 11 -> {
+//
+//        }
+//        m == 2 -> {
+//
+//        }
+//        else -> {
+//            println("Noto`g`ri oy kiritildi!!")
+//        }
+//    }
+//    when (m) {
+//        1 -> {
+//            print("Yanvar")
+//        }
+//        2 -> {
+//            print("Fevral")
+//        }
+//        3 -> {
+//            print("Matr")
+//        }
+//        4 -> {
+//            print("Aprel")
+//        }
+//        5 -> {
+//            print("May")
+//        }
+//        7 -> {
+//            print("Iyunn")
+//        }
+//        8 -> {
+//            print("Avgust")
+//        }
+//        9 -> {
+//            print("Sentabr")
+//        }
+//
+//    }
+//
+//
+//    var a = 1
+//    var b = 2
+//    var c = 3
+//    if (b > a && c > a) {
+//        print("Kichigi $a")
+//        if (b > c) {
+//            print("Kattasi $b")
+//        } else {
+//            print("Kattasi $c")
+//        }
+//    }
+//    if (a > b && c > b) {
+//        print("Kichigi $b")
+//        if (a > c) {
+//            print("Kattasi $a")
+//        } else {
+//            print("Kattasi $c")
+//        }
+//    }
+//    if (b > c && a > c) {
+//        print("Kichigi $c")
+//        if (a > b) {
+//            print("Kattasi $a")
+//        } else {
+//            print("Kattasi $b")
+//        }
+//    }
+//
+//
+//
+//    var y = readln()
+//    var k = readln().toInt()
+//    when (y) {
+//        "s" -> {
+//            when (k) {
+//                0 -> {
+//                    print("Shimol")
+//                }
+//                1 -> {
+//                    print("Sharq")
+//                }
+//                2 -> {
+//                    print("Garb")
+//                }
+//                else -> {
+//                    print("Xato kamanda berildi!!")
+//                }
+//            }
+//        }
+//        "j" -> {
+//            when (k) {
+//                0 -> {
+//                    print("Janub")
+//                }
+//                1 -> {
+//                    print("Sharq")
+//                }
+//                2 -> {
+//                    print("G`arb")
+//                }
+//                else -> {
+//                    print("Xato kamanda berildi!!")
+//                }
+//            }
+//        }
+//        "q" -> {
+//
+//        }
+//        "g" -> {
+//
+//        }
+//
+//    }
+//
+//
+//    var a = readln().toInt() //1
+//    var b = readln().toInt() //2
+//    var c = readln().toInt() //3
+//    var d = readln().toInt() //4
+//    if (b == c && b == d && b != a) {
+//        print(1)
+//    } else
+//        if (a == c && a == d && a != b) {
+//            print(2)
+//        } else
+//            if (a == b && a == d && a != c) {
+//                print(3)
+//            } else if (a == b && a == c && a != d) {
+//                print(4)
+//            }
 
-    if (b > a && c > a) {
-        println(a)
-    }
+//
+//   var a = readln().toInt()
+//   var b = readln().toInt()
+//   var c = readln().toInt()
+//   var musbatSonlar = 0
+//    if (a>0){
+//        musbatSonlar=musbatSonlar+1
+//    }
+//    if (b>0){
+//        musbatSonlar=musbatSonlar+1
+//    }
+//    if (c>0){
+//        musbatSonlar=musbatSonlar+1
+//    }
+//    println("Musbatsonlar soni ${musbatSonlar}")
+//        Int
 }

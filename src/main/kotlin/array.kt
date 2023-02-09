@@ -92,27 +92,20 @@ fun main() {
 //        else
 //            print(s[i])
 //    }
+//
+//    var x1 = 2
+//    var y1 = 3
+//    var x2 = 6
+//    var y2 = 5
+//    var a = Math.abs(y2 - y1)
+//    var b = Math.abs(x2 - x1)
+//    var p = 2*(a+b)
+//    var s = a*b
+//    println("Peremetr = $p")
+//    println("Yuza = $s")
 
-
-    var n = readln().toInt()
-    var m = readln().toInt()
-    var array = Array(n) { IntArray(m) }
-
-    for (i in 0 until array.size) {
-        for (j in 0 until array[i].size) {
-            array[i][j] = readln().toInt()
-        }
-    }
-    var min=array[0][0]
-    var o = 0
-    for (i in 0 until array.size) {
-        for (j in 0 until array[i].size) {
-           if (min>array[i][j])
-           {
-
-           }
-        }
-    }
+    
 
 
 }
+

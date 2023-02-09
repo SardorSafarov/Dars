@@ -1,5 +1,5 @@
-import kotlin.math.PI
-import kotlin.math.sqrt
+import java.math.BigInteger
+import kotlin.math.hypot
 
 fun main() {
     //1-masala
@@ -476,30 +476,30 @@ fun main() {
 //    }
     //19-masala
 //
-    val year = readln()
-    val end = year.last()
-    when {
-        end.equals('1') || end.equals('6') -> print("sariq ")
-        end.equals('2') || end.equals('7') -> print("oq ")
-        end.equals('3') || end.equals('8') -> print("qora ")
-        end.equals('4') || end.equals('9') -> print("yashil ")
-        end.equals('5') || end.equals('0') -> print("qizil ")
-    }
-    when(year.toInt()%12)
-    {
-        4-> print("sichqon")
-        5-> print("sigir")
-        6-> print("yo`lbars")
-        7-> print("quyon")
-        8-> print("ajdar")
-        9-> print("ilon")
-        10-> print("ot")
-        11-> print("qo`y")
-        0-> print("maymun")
-        1-> print("tovuq")
-        2-> print("it")
-        3-> print("to`ng`iz")
-    }
+//    val year = readln()
+//    val end = year.last()
+//    when {
+//        end.equals('1') || end.equals('6') -> print("sariq ")
+//        end.equals('2') || end.equals('7') -> print("oq ")
+//        end.equals('3') || end.equals('8') -> print("qora ")
+//        end.equals('4') || end.equals('9') -> print("yashil ")
+//        end.equals('5') || end.equals('0') -> print("qizil ")
+//    }
+//    when(year.toInt()%12)
+//    {
+//        4-> print("sichqon")
+//        5-> print("sigir")
+//        6-> print("yo`lbars")
+//        7-> print("quyon")
+//        8-> print("ajdar")
+//        9-> print("ilon")
+//        10-> print("ot")
+//        11-> print("qo`y")
+//        0-> print("maymun")
+//        1-> print("tovuq")
+//        2-> print("it")
+//        3-> print("to`ng`iz")
+//    }
     //20-masala
 //    val sp = readln().split("-")
 //    val date1 = sp[0].split(".")
@@ -525,6 +525,105 @@ fun main() {
 //    }
 
 
+//    var a = readln().toInt()
+//    var n = readln().toInt()
+//    var pi = 3.14
+//    when(n){
+//        1->{
+//            var r = a
+//            var d = 2*r
+//            var l = 2*pi*r
+//            println(r)
+//            println(d)
+//            println(l)
+//        }
+//        2->{
+//            var d = a
+//            var r = d/2
+//            var l = 2*pi*r
+//            println(r)
+//            println(d)
+//            println(l)
+//        }
+//        3->{
+//            var l = a
+//            var r = l/(2*pi)
+//            var d = 2*r
+//            println(r)
+//            println(d)
+//            println(l)
+//        }
+//    }
 
-    //{9}
+
+    //20- masala
+//    var d = readln().toInt()
+//    var m = readln().toInt()
+//    when{
+//        (m == 1 || m==2) && (d>=20 || 18>=d)->{
+//            print("Qovg`a burji")
+//        }
+//        (m==2 || m==3)&&(d>=19 ||20>=d)->{
+//            print("Baliq burji")
+//        }
+//    }
+
+
+
+
+
+
+    //1-mavzu Izohlar
+    //
+
+    /*
+
+    */
+    //2-mavzu chop etish operatorlari
+//    println("Zomin")
+//    print("tumani")
+    //3-mavzu o`zgaruvchilar
+
+    //4-mavzu matemetik funksiyalar
+    //Math.sqrt()  ildiz
+    //Math.abs()   modul
+
+    //5-mavzu Mantiqiy tiplar
+    //  mantiqiy amallar
+    // qo`shish ||
+    // ko`pytish &&
+    // inkor  !
+    //6-mavzu   shart operator
+//    if (){
+//
+//    }else
+//    {
+//
+//    }
+    //7-mavzu tanlash operatorlar
+//    var a = 4
+//    when(a)
+//    {
+//        1->{
+//
+//        }
+//
+//
+//    }
+
+
+
+    var s = readLine()!!
+    var a = s[s.lastIndex].toInt()
+
+    println(a%2)
+
+
+
+
+
+
+
+
+
 }

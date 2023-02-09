@@ -6,7 +6,7 @@ fun main() {
 //    var s = true
 //    var max =0
 //    var min =0
-//    for(i in 1..n-2)
+//    for(i in 1..n)
 //    {
 //        var a = readln().toInt()
 //        if(s){

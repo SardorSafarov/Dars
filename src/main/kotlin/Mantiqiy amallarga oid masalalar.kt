@@ -188,19 +188,21 @@ fun main() {
 //    val y2 = sp[0].toInt()
 //    println((x1.plus(y1)%2 ==1 && x2.plus(y2)%2==1)||(x1.plus(y1)%2 ==0 && x2.plus(y2)%2==0))
     //36-masala
-//    val sp = readln().split(" ")
-//    val x1 = sp[0].toInt()
-//    val y1 = sp[1].toInt()
-//    val x2 = sp[2].toInt()
-//    val y2 = sp[3].toInt()
-//    println(x1.equals(x2) || y1.equals(y2))
+    val sp = readln().split(" ")
+    val x1 = sp[0].toInt()
+    val y1 = sp[1].toInt()
+    val x2 = sp[2].toInt()
+    val y2 = sp[3].toInt()
+    println(x1.equals(x2) || y1.equals(y2))
     //37-masala
 //    val sp = readln().split(" ")
 //    val x1 = sp[0].toInt()
 //    val y1 = sp[1].toInt()
 //    val x2 = sp[2].toInt()
 //    val y2 = sp[3].toInt()
-//    println(!(x1==x2 && y1==y2) && ((x1+1==x2 || x1-1==x2 || x1 == x2) && (y1+1==y2 || y1-1==y2 || y1==y2)))
+    println(!(x1==x2 && y1==y2) &&
+            ((x1+1==x2 || x1-1==x2 || x1 == x2) &&
+                    (y1+1==y2 || y1-1==y2 || y1==y2)))
     //38-masala
 
 
@@ -213,14 +215,6 @@ fun main() {
 
 
 
-    //20-masala
-//    val n = readln().toInt()
-//    val a = n/100
-//    val b = (n/10)%10
-//    val c = n%10
-//    println("Yuzlar xonasidagi = $a\nO`nlar = $b\nBirlar xonasidagi = $c")
-//
-//    println(a!=b && a!=c && b!=c)
 
 
 

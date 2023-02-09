@@ -90,32 +90,33 @@ fun main() {
     //25-masala
 //    val n = readln().toInt()
 //    println((n+3)%7)
+
+
 //    //26-masala
 //    val n = readln().toInt()
-//    println(n%7+1)
+//    println((n+1)%7+1)
+
     //27-masala
-//    val n = arrayOf("Shanba","Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma")
-//    val s = readln().toInt()
-//    println(n[s % 7])
+    //  val n = readln().toInt()
+//    println((n+5)%7+1)
+    //28-masal
+//    var k = readln().toInt()
+//    var n = readln().toInt()
+//    println((k+n-2)%7+1)
 //
-//    Int
+    //29-masala
 //    var a = readln().toInt()
 //    var b = readln().toInt()
 //    var c = readln().toInt()
-//    var musbatSonlar = 0
-//    if (a>0)
-//    {
-//      musbatSonlar=musbatSonlar+1
+//    println((a-c+1)*(b-c+1))
+    //30-masala
+//    var n = readln().toInt()
+//    if (n % 100 == 0) {
+//        println(n / 100)
+//    } else {
+//        println(n / 100 + 1)
 //    }
-//    if (b>0)
-//    {
-//        musbatSonlar=musbatSonlar+1
-//    }
-//    if (c>0)
-//    {
-//        musbatSonlar=musbatSonlar+1
-//    }
-//    println("$musbatSonlar ta musbat son")
+
 
 }
 

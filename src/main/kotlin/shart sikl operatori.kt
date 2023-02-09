@@ -25,14 +25,16 @@ fun main() {
 //    println(s)
     //3-masala
 //    val sp = readln().split(" ")
-//    var a = sp[0].toInt()
-//    var b = sp[1].toInt()
+//
+//
+//    var n = sp[1].toInt()
+//    var k = sp[0].toInt()
 //    var s = 0
-//    while (b >= a) {
+//    while (n >= k) {
 //        s++
-//        b -= a
+//        n -= k
 //    }
-//    println("Butun qismi = $s\nQoldiq qismi = $b")
+//    println("Butun qismi = $s\nQoldiq qismi = $k")
 
     //4-masala
 
@@ -337,7 +339,7 @@ fun main() {
 
 
 
-
+  Long
 
 
 
