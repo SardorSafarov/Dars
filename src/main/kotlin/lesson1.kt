@@ -8,7 +8,7 @@ fun main() {
         k++
     } while (sum < a)
         k-1
-        //mizhohid
+        //Behruz
 }
 
 
